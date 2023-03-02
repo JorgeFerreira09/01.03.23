@@ -1,0 +1,21 @@
+body {
+    color: white;
+    background-color: grey;
+}
+
+/* Em telas com 992px de largura ou menos, a cor de fundo é blueviolet */
+@media screen and (max-width: 992px) {
+    body {
+        background-color: blueviolet;
+        color: white;
+    }
+}
+
+/*  Em telas com 600px de largura ou menos, a cor de fundo é verde-oliva */
+@media screen and (max-width: 600px){
+    body {
+        background-color: olive;
+        color: white;
+    }
+}
+

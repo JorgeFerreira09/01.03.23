@@ -1,0 +1,51 @@
+.img-content {
+    width: 795px;
+    height: 400px;
+}
+
+.text-content {
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 50px;
+    line-height: 1.0;
+}
+
+/* Entre 800px e 500px fica roxo claro*/
+@media screen and (max-width: 800px) {
+    body {
+        background-color: cornflowerblue;
+    }
+
+    .img-content {
+        width: 500px;
+    }
+    .text-content {
+        font-size: 16px;
+    }
+}
+
+/*Entre 500px e 300px fica azul*/
+@media screen and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+    
+    .img-content {
+        width: 100%;
+        height: auto;
+    }
+}
+/* 300px até 0px fica blueviolet*/
+@media screen and (max-width: 300px) {
+    body {
+        background-color: blueviolet;
+    }
+
+    .img-content {
+        width: 100%;
+        height: auto;
+    }
+    .text-content {
+        text-align: center;
+    }
+}
